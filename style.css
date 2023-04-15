@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(225, 225, 225);
+}
+
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(33, 33, 33) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.main-container {
+    display: flex;
+    margin: 1.875rem;
+}
+
+.parent {
+    width: 100%;
+    height: 800px;
+}
+
+.components {
+    width: 100%;
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.bottom-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.current-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.card-container {
+    display: flex;
+    height: 100px;
+}
+
+.player-icon {
+    border-radius: 60px;
+}
+
+.profile {
+    margin: 0 0 40px 0;
+}
+
+.active {
+    background-color: #353535;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.774) 0px 8px 24px;
+    transition: all .75s;
+}
+
+.player-icon--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
+
+.player-details {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 20px 0 5px;
+}
+
+.showCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.used-cards {
+    width: 100%;
+    background-color: #26262696;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(20, 20, 20, 0.99) 0px 8px 24px;
+    height: 50px;
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+    height: 350px;
+
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.774) 0px 8px 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+.attr {
+    color: rgb(150, 150, 150);
+}
+
+
+.current-health {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.active-current {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn-showCards {
+    background-color: #ffffff00;
+    border: none;
+}
+
+.dice-roll {
+    background-color: #c6c6c6;
+    color: rgb(21, 21, 21);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 17px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.774) 0px 8px 24px;
+}
+
+.card-ui {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.r-UI {
+    display: flex;
+    align-items: center;
+}
+
+.mod {
+    display: block;
+}
+
+.model {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.atta {
+    color: red;
+}
+
+.blo {
+    color: yellow;
+}
+
+.dec {
+    color: #a7a6a6;
+}
+
+.for {
+    color: rgb(212, 151, 151);
+}
+
+.reg {
+    color: rgb(65, 237, 65);
+}
+
+.lif {
+    color: rgb(204, 3, 3);
+}
+
+.title {
+    font-size: 20px;
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+.act{
+    background-color: #3939397b;
+}

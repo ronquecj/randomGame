@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="parent player-1">
+        <div class="card-container profile active p1">
+          <div class="player-icon--container">
+            <img
+              class="player-icon"
+              src="/playerIMG/playerIcon-1.png"
+              alt="Player-1"
+              width="70"
+              height="70"
+            />
+          </div>
+          <div class="player-details">
+            <h1 class="player-number">Player 1</h1>
+            <p class="attr">
+              A: <span class="att p1-a">10 </span> S:
+              <span class="att p1-s">0 </span>
+            </p>
+            <p class="current-health p1-h">100</p>
+          </div>
+        </div>
+      </section>
+      <section class="components">
+        <div class="current-player">
+          <label for="" class="active-current">Player 1</label>
+        </div>
+        <div class="card-img-container">
+          <img
+            class="card hidden"
+            src="/cardsIMG/c-A-3__1.png"
+            alt="Dice-1"
+            width="240"
+            height="370"
+          />
+        </div>
+        <div class="dice">
+          <img
+            class="dice-color hidden"
+            src="/diceIMG/dice-1.svg"
+            alt="Dice-1"
+            width="70"
+            height="70"
+          />
+        </div>
+        <div class="showCards">
+          <button class="btn-showCards">Show Cards</button>
+        </div>
+        <div class="bottom-component">
+          <button class="dice-roll">Roll</button>
+        </div>
+      </section>
+      <section class="parent player-2">
+        <div class="card-container profile p2">
+          <div class="player-icon--container">
+            <img
+              class="player-icon"
+              src="/playerIMG/playerIcon-2.png"
+              alt="Player-1"
+              width="70"
+              height="70"
+            />
+          </div>
+          <div class="player-details">
+            <h1 class="player-number">Player 2</h1>
+            <p class="attr">
+              A: <span class="att p2-a">10 </span> S:
+              <span class="att p2-s">0 </span>
+            </p>
+            <p class="current-health p2-h">100</p>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="parent player-2">
+        <div class="card-container">
+          <label for="" class="title">Damage skill</label>
+          <p class="description">+5 damage to opponent</p>
+        </div>
+      </section> -->
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
