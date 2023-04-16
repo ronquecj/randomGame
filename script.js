@@ -96,10 +96,8 @@ diceRoll.addEventListener("click", (e) => {
 
   profileCur.classList.remove("active");
   if (p1.health == 0 || p1.health < 0) {
-    p2.health.innerHTML = 0;
     alert(`Real Nigga: Player 2`);
   } else if (p2.health == 0 || p2.health < 0) {
-    p1.health.innerHTML = 0;
     alert(`Real Nigga: Player 1`);
   } else {
     card.classList.remove("hidden");
