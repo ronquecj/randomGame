@@ -101,7 +101,7 @@ diceRoll.addEventListener("click", (e) => {
     }
 
     currPlayer.insertAdjacentHTML("beforeend", switchR._htmlString());
-    dice.src = `/diceIMG/dice-${curDiceN}.svg`;
+    dice.src = `diceIMG/dice-${curDiceN}.svg`;
 
     switchR._cardTurn(curObj, curOpponent);
 
