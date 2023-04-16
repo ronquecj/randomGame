@@ -12,7 +12,7 @@ class Player {
     this.shield = shield;
     this.number = number;
 
-    this.pAttack = document.querySelector(`.p${this.number}-a`).innerHTML = 20;
+    this.pAttack = document.querySelector(`.p${this.number}-a`);
     this.pShield = document.querySelector(`.p${this.number}-s`);
     this.pHealth = document.querySelector(`.p${this.number}-h`);
 
