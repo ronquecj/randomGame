@@ -68,6 +68,8 @@ const switchRoll = (dice) => {
     case 6:
       return lifesteal;
       break;
+    default:
+      return dice;
   }
 };
 
