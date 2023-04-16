@@ -54,7 +54,7 @@ class Regeneration {
   _randomCard() {
     this.curDiceN = this._randomN();
 
-    return `/cardsIMG/c-${this.attr}-${this.number}__${this._switchRandomN(
+    return `cardsIMG/c-${this.attr}-${this.number}__${this._switchRandomN(
       this.curDiceN
     )}.png`;
   }
@@ -69,7 +69,7 @@ class Regeneration {
             <p class="model reg">Regeneration</p>
             <img
                 class="player-icon"
-                src="/attrIMG/a-${this.attr}.png"
+                src="attrIMG/a-${this.attr}.png"
                 alt="attr"
                 width="20"
                 height="20"
