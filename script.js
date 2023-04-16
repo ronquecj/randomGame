@@ -73,6 +73,17 @@ const switchRoll = (dice) => {
   }
 };
 
+const rollTwo = (dice) => {
+  switch (dice) {
+    case 1:
+      return 3;
+      break;
+    case 2:
+      return 4;
+      break;
+  }
+};
+
 let curDiceN = 1;
 const mod = document.querySelector(".mod");
 
@@ -95,6 +106,7 @@ diceRoll.addEventListener("click", (e) => {
     dice.classList.remove("hidden");
 
     curDiceN = randomRoll();
+
     let switchR = switchRoll(curDiceN);
     card.src = switchR._randomCard();
 

@@ -60,7 +60,9 @@ class Lifesteal {
 
   _cardTurn(player, opponent = null) {
     player.health += this.health;
-    opponent.health -= this.damage - opponent.shield;
+    opponent.health -=
+      opponent.shield > this.damage ? 0 : this.damage - opponent.shield;
+
     player.pHealth.innerHTML = player.health >= 100 ? 100 : player.health;
     opponent.pHealth.innerHTML = opponent.health;
   }

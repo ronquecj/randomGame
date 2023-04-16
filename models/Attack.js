@@ -34,8 +34,9 @@ class Attack {
   }
 
   _cardTurn(player, opponent) {
-    opponent.health =
-      opponent.health - (player.attack * this.attack - opponent.shield);
+    player.attack = player.attack * this.attack;
+    opponent.health -=
+      opponent.shield > player.attack ? 0 : player.attack - opponent.shield;
     opponent.pHealth.innerHTML = opponent.health;
   }
 
