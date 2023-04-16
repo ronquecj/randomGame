@@ -9,8 +9,8 @@ import Fortify from "./models/Fortify.js";
 import Regeneration from "./models/Regeneration.js";
 import Lifesteal from "./models/Lifesteal.js";
 
-const p1 = new Player("player1", 100, 10, 0, 1);
-const p2 = new Player("player2", 100, 10, 0, 2);
+const p1 = new Player("player1", 100, 20, 0, 1);
+const p2 = new Player("player2", 100, 20, 0, 2);
 
 const decay = new Decay(1);
 const block = new Block(2);
