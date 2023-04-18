@@ -94,6 +94,13 @@ body {
     padding: 10px;
     box-shadow: rgba(20, 20, 20, 0.99) 0px 8px 24px;
     height: 50px;
+    transition: all 1s ease;
+}
+
+.used-cards:last-child {
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+    height: 10%;
 }
 
 .card-img-container {
@@ -202,6 +209,6 @@ body {
     color: #4a4a4a;
 }
 
-.act{
+.act {
     background-color: #3939397b;
 }
