@@ -97,10 +97,17 @@ body {
     transition: all 1s ease;
 }
 
+.used-cards:hover {
+    background-color: #ffffff26;
+    cursor: pointer;
+    height: 10%;
+}
+
 .used-cards:last-child {
     background-color: rgb(46, 46, 46);
     cursor: pointer;
     height: 10%;
+    color: black !important;
 }
 
 .card-img-container {
@@ -115,6 +122,13 @@ body {
 .card {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.774) 0px 8px 24px;
+    transition: all .5s ease;
+}
+
+.card:hover {
+    width: 270px;
+    height: 400px;
+    cursor: pointer;
 }
 
 .hidden {
