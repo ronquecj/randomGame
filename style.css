@@ -57,6 +57,10 @@ body {
     margin: 0 0 40px 0;
 }
 
+.profile:hover {
+    cursor: pointer;
+}
+
 .active {
     background-color: #353535;
     border-radius: 10px;
@@ -156,7 +160,7 @@ body {
 }
 
 .dice-roll {
-    background-color: #c6c6c6;
+    background-color: #9f9f9f;
     color: rgb(21, 21, 21);
     font-size: 18px;
     font-weight: bold;
@@ -164,6 +168,16 @@ body {
     border-radius: 20px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, 0.774) 0px 8px 24px;
+    transition: all .40s ease;
+}
+
+.dice-roll:hover {
+    background-color: #fff;
+}
+
+.dice-roll:active {
+    opacity: 10%;
+    margin: 5px 10px
 }
 
 .card-ui {
